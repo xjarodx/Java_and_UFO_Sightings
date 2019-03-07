@@ -16,6 +16,7 @@ body {
   min-height: 100%;
   padding-bottom: 130px;
   overflow: auto;
+  background: rgb(16, 16, 16);
 }
 
 /* The footer is positioned at the bottom of the page */
@@ -24,8 +25,8 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  min-height: 100px;
-  background: #4e5d6c;
+  min-height: 50px;
+  background: rgb(88, 110, 129);
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -35,12 +36,13 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: rgb(16, 16, 16);
 }
 
 .navbar {
   padding: 5px;
   margin: 0;
+  background: rgb(88, 110, 129);
 }
 
 /* This CSS styles the ufo icon in the navbar */
@@ -49,7 +51,7 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* Adding styles to the aside and filter form */
@@ -62,7 +64,7 @@ body {
 }
 
 .filters {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 select {
@@ -98,7 +100,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/GrayScaleUS.png");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
