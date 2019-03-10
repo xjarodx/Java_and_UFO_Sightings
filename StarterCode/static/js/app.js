@@ -43,4 +43,3 @@ var tableData = data;
     console.log(filtData);
     loadTable(filtData);
   });
-
